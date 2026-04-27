@@ -1,49 +1,52 @@
-<!-- hide -->
-# Hello World with Vanilla JS
+# Asian Grill - Online Ordering Website
 
-> 🇪🇸 [Spanish version of this readme is available](./README.es.md).
-<!-- endhide -->
-Start coding a JS/HTML/CSS website in 30 seconds by opening this template using 4Geeks' [One-Click Coding](https://s.4geeks.com/start?repo=https://github.com/4GeeksAcademy/vanillajs-hello) or locally on your computer.
+A modern, beautiful restaurant ordering website built with React and Tailwind CSS.
 
-## Before you begin
+## Features
 
-Install the packages by typing: `npm install`.
+- 🛒 Shopping cart with real-time calculations
+- 🔍 Search functionality to find dishes
+- 📂 Category filtering (Appetizers, Mains, Specialties, Desserts)
+- 📱 Fully responsive mobile design
+- 💳 Checkout button
+- 🎨 Beautiful gradient UI with animations
+- ⚡ Fast and smooth performance
 
-### How do I run my website to see live changes?  
+## Installation
 
-Type on the command line `$ npm run start` and type localhost on the browser.
+```bash
+# Install dependencies
+npm install
 
-### Where do I write my code?  
+# Start dev server
+npm start
 
-It depends on the language, but you have `./src/app.js`, `./src/style.css` and `./src/index.html` respectively, you can add new `.html` as you please, just make sure to import it on the `app.js`.
+# Build for production
+npm run build
+```
 
-> Note: remember that the JS workflow starts inside `window.onload`.
+## Tech Stack
 
+- React 18
+- Vite
+- Tailwind CSS
+- Font Awesome Icons
 
-## Troubleshooting
+## Menu Items
 
-### I don't see my changes...
+- **Appetizers**: Spring Rolls, Chicken Satay, Summer Rolls
+- **Main Courses**: Beef Teriyaki, Chicken Pad Thai, Vegetable Stir Fry, Shrimp Pad See Ew
+- **Specialties**: Mongolian Beef, Kung Pao Chicken, Crispy Duck
+- **Desserts**: Mango Sticky Rice, Green Tea Ice Cream
 
-Everytime you change any file inside the `./src` folder the website's public URL will automatically refresh the changes (it's a process called hot deploy)
-Remember also to refresh cleaning the cache (`command+shift+r` on Mac, `control+shift+r` on PC & Linux)
+## How to Use
 
-### How do I include more images in my project?
+1. Search for dishes or filter by category
+2. Click "Add" to add items to your cart
+3. Adjust quantities in the cart
+4. View total with tax calculation
+5. Click "Checkout" to place order
 
-Add them inside the `./src/assets/img` folder and import them from any of your JS files. E.g: `import "../assets/img/rigo-baby.jpg";`
+---
 
-### How do I include more JS files?
-
-Just add the files into the src folder and import the file/variables into your app.js. E.g: `import myVar from "./file2.js"`
-
-### How do I publish the website?
-
-We have prepared the boilerplate to be compatible with [vercel](https://vercel.com/), very easy and in just one step! 
-You can read more about [deploying on vercel here](https://4geeks.com/docs/start/deploy-vercel).
-
-<!-- hide -->
-### Thank you
-
-This template was built as part of the 4Geeks Academy [Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) by [Alejandro Sanchez](https://twitter.com/alesanchezr) and many other contributors. Find out more about our [Full Stack Developer Course](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer), [Data Science Bootcamp](https://4geeksacademy.com/us/coding-bootcamps/datascience-machine-learning) or [CyberSecurity Bootcamp](https://4geeksacademy.com/us/coding-bootcamps/cybersecurity)
-
-You can find other templates and resources like this at the [school's GitHub page](https://github.com/4geeksacademy/).
-<!-- endhide -->
+**Made with ❤️ for Asian Grill**
